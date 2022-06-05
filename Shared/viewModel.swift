@@ -8,7 +8,7 @@
 import Foundation
 
 class viewModel: ObservableObject {
-    @Published var datos = [model]()
+    @Published var datos = model(results: [Results(id: 0, name: "", type: "", image: "")])
     
     func fetchData() async {
         guard let url = URL(string: "https://rickandmortyapi.com/api/character") else {
@@ -17,7 +17,7 @@ class viewModel: ObservableObject {
         }
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
-            if let decoderData = try? JSONDecoder().decode([model].self, from: data) {
+            if let decoderData = try? JSONDecoder().decode(model.self, from: data) {
                 DispatchQueue.main.async {
                     self.datos = decoderData
                 }
