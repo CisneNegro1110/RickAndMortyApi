@@ -17,6 +17,8 @@
 		EA99FAB0284C65C600A5974E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99FA86284C65C000A5974E /* ContentView.swift */; };
 		EA99FAB1284C65C600A5974E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA99FA87284C65C500A5974E /* Assets.xcassets */; };
 		EA99FAB2284C65C600A5974E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA99FA87284C65C500A5974E /* Assets.xcassets */; };
+		EA99FAC2284C663500A5974E /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99FAC1284C663500A5974E /* model.swift */; };
+		EA99FAC3284C663500A5974E /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA99FAC1284C663500A5974E /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		EA99FAA5284C65C600A5974E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA99FAA9284C65C600A5974E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EA99FAAB284C65C600A5974E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		EA99FAC1284C663500A5974E /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				EA99FA85284C65C000A5974E /* RickAndMortyApiApp.swift */,
 				EA99FA86284C65C000A5974E /* ContentView.swift */,
+				EA99FAC1284C663500A5974E /* model.swift */,
 				EA99FA87284C65C500A5974E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA99FAAF284C65C600A5974E /* ContentView.swift in Sources */,
+				EA99FAC2284C663500A5974E /* model.swift in Sources */,
 				EA99FAAD284C65C600A5974E /* RickAndMortyApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA99FAB0284C65C600A5974E /* ContentView.swift in Sources */,
+				EA99FAC3284C663500A5974E /* model.swift in Sources */,
 				EA99FAAE284C65C600A5974E /* RickAndMortyApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
